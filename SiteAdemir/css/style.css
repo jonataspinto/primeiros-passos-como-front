@@ -1,0 +1,17 @@
+nav {
+  background-color: rgb(179, 127, 54);
+}
+
+.carousel-control{
+
+  /*background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0, 0, 0, 0) 100%);*/
+  top:50%;
+  transform:translateY(-50%);
+  font-size:6em;
+}
+.carousel-control.left{
+  background-image: none;
+}
+.carousel-control.right{
+  background-image: none;
+}

@@ -1,0 +1,48 @@
+/* css document */
+
+ body {
+   font-size: small;
+   background-image: url("img/opa.jpg") ;
+   background-attachment: fixed;}
+
+  h3{color:rgb(212, 25, 86);
+     text-align: center;text-decoration: underline;
+     font-size: 155%;
+
+   }
+
+  h4{color:rgba(242, 233, 17, 0.72);
+     text-align: justify; text-indent: 50px; font-family:"times new roman", times,serif ;
+     font-size:125%;}
+
+
+  a:link {color:rgb(12, 60, 244);}
+  a:visited {color: rgb(141, 227, 27);}
+  a:hover {color:rgb(251, 16, 96);}
+  a:active{color:rgb(4, 1, 9);}
+
+  #box1 {position: absolute;
+         top:80px;
+         left: 30px;
+         background:red ;
+         width: 500px;
+         height: 350px;
+         padding:10px;
+       }
+  #box2 {position:absolute;
+         top:80px;
+         left:555px;
+         background: blue;
+         width:  210px;
+         height: 350px;
+         padding: 10px;
+      }
+  #box3 {position:absolute;
+         top:80px;
+         left:790px;
+         right:30px;
+         background: blue;
+         width:  500px;
+         height: 250px;
+         padding: 10px;
+      }
